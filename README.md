@@ -3,11 +3,7 @@ Detects motion in video files, and copies to new, separate video clips.
 
 ### Introduction
 
-FFmpeg Detect & Copy Motion (FDCM) automatically detects motion in video files. Each video motion event is saved to a new, separate video file. It works on most videos with a fixed camera angle and (almost) motionless background.
-
-FDCM is optimized for speed. A 1080p video should be processed 3-5x faster than the duration of the input file.
-
-The extracted files are lossless copies from the input file bitstream.
+FFmpeg Detect & Copy Motion (FDCM) automatically detects motion in video files. Each video motion event is saved to a new, separate video 
 
 FFmpeg and Python 3 are required.
 
